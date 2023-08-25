@@ -1,0 +1,301 @@
+* {
+
+padding: 0;
+margin: 0;
+
+}
+
+.portfolio_container {
+
+margin: 0 auto;	
+max-width: 1750px;
+width: 100%;
+height: auto;
+background-color: antiquewhite;
+display: flex;
+flex-direction: column;
+gap: 10px;
+
+}
+
+
+.portfolio_columns {
+
+background-color: rgb(51, 51, 51);
+height: 500px;
+
+}
+
+.portfolio_columns:nth-child(1) {
+display: flex;
+flex-direction: column;
+height: auto;
+background-color: rgb(240, 240, 240);
+
+
+}
+
+nav.navbar.navbar-expand-lg {
+
+background-color: rgba(21, 88, 146, 0);
+
+}
+
+a.navbar-brand {
+
+font-family: 'Patua One', cursive;
+margin-left: 3%;
+
+	
+}
+
+ul.navbar-nav {
+
+margin-left: 10%;
+
+}
+
+a.nav-link {
+
+letter-spacing: 1px;	
+font-family: 'Patua One', cursive;
+margin-right: 10px;
+
+
+}
+
+
+.starting_page_container {
+
+align-self: center;
+width: 100%;
+
+margin-top: 10%;
+aspect-ratio: 6/2;
+display: grid;
+grid-template-columns: 45% 55%;
+
+}
+
+.name_and_info_container {
+
+
+display: flex;
+flex-direction: column;
+gap: 1%;
+
+}
+
+.greet {
+
+margin-top: 10%;	
+
+margin-left: 8%;
+font-family: 'Black Ops One', cursive;
+font-size: clamp(10px, 2vw, 40px);
+letter-spacing: 1px;
+
+}
+
+.my_name_container {
+
+
+display: grid;
+grid-template-columns: 1fr 1fr;
+
+margin-left: 8%;
+font-family: 'Black Ops One', cursive;
+font-size: clamp(10px, 2.5vw, 50px);
+margin-top: 2%;
+width: 50%;
+
+} 
+
+.my_name {
+color: black;
+background-color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+border: 1px black solid;
+
+}
+
+.my_surname {
+
+display: flex;	
+align-items: center;
+justify-content: center;
+color: white;
+background-color: black;
+
+}
+
+.pro_summary {
+
+margin-top: 4%;	
+max-width: 80%;	
+margin-left: 8%;
+
+font-size: clamp(10px, 1vw, 20px);
+font-family: 'Patua One', cursive;
+letter-spacing: 1px;
+
+
+}
+
+
+.social_media_icon_container {
+
+margin-left: 8%;
+margin-top: 4%;
+display: flex;
+flex-direction: row;
+
+height: auto;
+align-items: center	;
+
+}
+
+.wallpaper_and_design_wallpaper {
+
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+
+
+
+}
+
+.wallpaper_container {
+
+border: 1px black solid;	
+width: 85%;
+aspect-ratio: 9/5;
+background-color: white;
+display: flex;
+justify-content: flex-end;
+align-items: center;
+padding-right: 1.5%;
+
+}
+
+
+.wallpaper_holder {
+
+
+width: 30%;
+aspect-ratio: 5/8.5;
+
+}
+
+.wallpaper_holder img {
+
+width: 100%;
+height: 100%;
+object-fit: cover;
+
+}
+
+.profession_container {
+
+
+width: 55%;
+
+aspect-ratio: 9/2.5;
+
+background-color: rgb(31, 31, 31);
+position: absolute;
+left: 1%;
+color: white;
+font-family: 'Black Ops One', cursive;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: clamp(10px, 2.5vw, 50px);
+
+
+}
+
+.social_media_icon_container {
+
+
+
+}
+
+.check_out {
+
+
+font-family: 'Black Ops One', cursive;
+font-size: clamp(10px, 1vw, 20px);
+
+}
+
+.icon_holder_container {
+
+display: flex;
+flex-direction: row;
+align-items: center;
+
+margin-left: 8%;
+height: 90%;
+gap: 20%;
+height: auto;
+
+
+
+}
+
+
+.icon_holder {
+
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: rgb(58, 58, 58);
+padding: 20%;
+-webkit-clip-path: circle(43.3% at 50% 50%);
+clip-path: circle(43.3% at 50% 50%);
+}
+
+
+i.fa-brands  {
+
+font-size: clamp(10px, 1.8vw, 40px);
+
+}
+
+
+@media (max-width: 900px) {
+
+
+
+.starting_page_container {
+
+margin-top: 1%;	
+grid-template-columns: 1fr;
+
+}
+
+.name_and_info_container {
+
+margin-bottom: 8%;
+
+}
+
+.wallpaper_container {
+
+width: 60%;
+
+}
+
+.profession_container {
+
+width: 40%;
+left: 8%;
+
+}
+
+
+}
